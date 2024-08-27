@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Emilija Miladinovic</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
@@ -13,7 +14,8 @@
         <img src="images/header.jpg" alt="header" width="100%">
     </header> <!--end header-->
 
-    <nav> <!--beg. navigation-->
+    <nav style="background-color:rgb(0, 108, 109) ;
+    padding-bottom: 5px; color: whitesmoke;"> <!--beg. navigation-->
         <ul> <!--things to do: 
                                 -change fonts
                                 - make it inline without dots -->
@@ -30,17 +32,22 @@
 
 
 
-    <main> <!--beg. main-->
-        <section> <!--beg. name-->
+    <main style="background-image: url(./images/b.jpg);
+    background-position: right;
+    background-size: 100%;
+    padding-top: 100px;
+    background-attachment: fixed;"> 
+    <!--beg. main-->
+        <section style="margin-left: 20px;"> <!--beg. name-->
             <div> <!-- image-->
-                <img src="images/my_picture.jpg" alt="Emilija Miladinovic" width="150"
-                    style="float:right;margin-top:-50px">
+                <img src="images/my_picture.jpg" alt="Emilija Miladinovic" width="25%"
+                    style="float:right;margin-top:-70px;border-radius: 50%; box-shadow: 10px 10px 10px rgb(201, 201, 201);">
             </div> <!-- image-->
 
 
             <div style="margin-top: 150px;"> <!-- text-->
 
-                <h1 style="color: rgb(0, 71, 99); font-size: 40px;">
+                <h1 style="color:whitesmoke; font-size: 60px;">
 
                     Emilija Miladinovic
 
@@ -48,18 +55,18 @@
 
 
 
-                <h2 style="color: rgb(0, 85, 134);">
+                <h2 style="color: whitesmoke; margin-bottom: -5px;">
                     Scrum Master
                 </h2>
 
-                <h2 style="color: rgb(0, 85, 134);">
+                <h2 style="color:whitesmoke ;margin-top: 5px;">
                     Msc Graphic Engineer and designer
                 </h2>
             </div>
         </section> <!-- end name-->
 
-        <section id="profile"><!-- beg. profile-->
-            <h3 style="margin-top: 100px;">
+        <section id="profile" style="margin-top: 200px;"><!-- beg. profile-->
+            <h3 class="main">
                 Profile
             </h3>
 
@@ -77,7 +84,7 @@
         </section> <!--end profile-->
 
         <section id="skills"><!-- beg. skills-->
-            <h3 style="margin-top: 100px;">
+            <h3 class="main">
                 Skills
             </h3>
 
@@ -138,15 +145,15 @@
         </section> <!--end skills-->
 
         <section id="experience"><!-- beg. experience-->
-            <h3 style="margin-top: 100px;">
+            <h3 class="main">
                 Experience
             </h3>
 
 
             <section> <!--beg.scrum master-->
-                <h5>Scrum Master</h5>
-                <h5>Volvo Cars, Lund, Sweden</h5>
-                <h5>May 2023 – October 2023</h5>
+                <h5 class="title">Scrum Master</h5>
+                <h5 class="where">Volvo Cars, Lund, Sweden</h5>
+                <h5 class="when">May 2023 – October 2023</h5>
                 <ul>
                     <li>
                         Scrum Master for the LPA (Low Power Node) Team in
@@ -189,9 +196,9 @@
             </section><!--end scrum master-->
 
             <section> <!--beg.njufkica-->
-                <h5>Owner and pastry manufacturer</h5>
-                <h5>Njufkica, Novi Sad, Serbia </h5>
-                <h5>October 2016 – July 2018</h5>
+                <h5 class="title">Owner and pastry manufacturer</h5>
+                <h5 class="where">Njufkica, Novi Sad, Serbia </h5>
+                <h5 class="when">October 2016 – July 2018</h5>
                 <ul>
                     <li>
                         Responsible for the entire production process.
@@ -216,9 +223,9 @@
             </section><!--end njufkica-->
 
             <section> <!--beg.florist-->
-                <h5>Florist</h5>
-                <h5>‘Cvetna nota’ , Novi Sad, Serbia </h5>
-                <h5>January 2018 – May 2018 </h5>
+                <h5 class="title">Florist</h5>
+                <h5 class="where">‘Cvetna nota’ , Novi Sad, Serbia </h5>
+                <h5 class="when">January 2018 – May 2018 </h5>
                 <ul>
                     <li>
                         Responsible for day to day shop operation, timely ordering
@@ -230,9 +237,9 @@
             </section><!--end florist-->
 
             <section> <!--beg.shift manager-->
-                <h5>Shift manager</h5>
-                <h5>‘Vracar’ , Veternik, Serbia </h5>
-                <h5>April 2015 – October 2015 </h5>
+                <h5 class="title">Shift manager</h5>
+                <h5 class="where">‘Vracar’ , Veternik, Serbia </h5>
+                <h5 class="when">April 2015 – October 2015 </h5>
                 <ul>
                     <li>
                         Planning and coordination of single shift work with
@@ -251,11 +258,11 @@
             </section><!--end shift manager-->
 
             <section> <!-- beg. coordinator-->
-                <h5>Assistant coordinator</h5>
-                <h5>Department of Graphic Engineering and Design
+                <h5 class="title">Assistant coordinator</h5>
+                <h5 class="where">Department of Graphic Engineering and Design
                     Faculty of Technical Science in Novi Sad
                 </h5>
-                <h5>October 2010-October 2014</h5>
+                <h5 class="when">October 2010-October 2014</h5>
                 <ul>
                     <li>
                         Co-coordinator for practical educational sessions
@@ -273,7 +280,7 @@
         </section> <!--end experience-->
 
         <section id="languages"><!-- beg. languages-->
-            <h3 style="margin-top: 100px;">
+            <h3 class="main">
                 Languages
             </h3>
 
@@ -316,42 +323,42 @@
         </section> <!--end languages-->
 
         <section id="courses"><!-- beg. coureses-->
-            <h3 style="margin-top: 100px;">
+            <h3 class="main">
                 Courses and certifications
             </h3>
 
             <section> <!--beg. scrum master-->
-                <h5>Professional Scrum Master™ I (PSM I)</h5>
-                <h5>Scrum.org, </h5>
-                <h5>August 2022. </h5>
+                <h5 class="title">Professional Scrum Master™ I (PSM I)</h5>
+                <h5 class="where">Scrum.org, </h5>
+                <h5 class="when">August 2022. </h5>
             </section> <!--end scrum master-->
 
             <section> <!--beg. scrum fundamentals-->
-                <h5>Scrum Fundamentals Certified (SFC)</h5>
-                <h5>SCRUMstudy - Accreditation Body for Scrum and Agile</h5>
-                <h5>March 2022.</h5>
+                <h5 class="title">Scrum Fundamentals Certified (SFC)</h5>
+                <h5 class="where">SCRUMstudy - Accreditation Body for Scrum and Agile</h5>
+                <h5 class="when">March 2022.</h5>
             </section> <!--end scrum fundamentals-->
 
             <section> <!--beg. programming-->
-                <h5>Basics of Programming (in C# and .NET framework)</h5>
-                <h5>SmartInIT Code Academy, Novi Sad</h5>
-                <h5>March 2018.</h5>
+                <h5 class="title">Basics of Programming (in C# and .NET framework)</h5>
+                <h5 class="where">SmartInIT Code Academy, Novi Sad</h5>
+                <h5 class="when">March 2018.</h5>
             </section> <!--end programming-->
 
         </section> <!--end courses-->
 
         <section id="education"><!-- beg. education-->
-            <h3 style="margin-top: 100px;">
+            <h3 class="main">
                 Education
             </h3>
 
             <section> <!--beg. master-->
-                <h4>
+                <h4 class="title">
                     Master’s degree in graphic
                     engineering and design
                 </h4>
 
-                <h5>October 2013 – October 2014 </h5>
+                <h5 class="when" style="margin-top: 15px;">October 2013 – October 2014 </h5>
 
                 <p>
                     Department of Graphic Engineering and Design
@@ -376,11 +383,11 @@
 
 
             <section> <!--beg. bachelor-->
-                <h4>
+                <h4 class="title">
                     Bachelor’s degree with honors in graphic engineering and design
                 </h4>
 
-                <h5>October 2009 – October 2013 </h5>
+                <h5 class="when" style="margin-top: 15px;">October 2009 – October 2013 </h5>
 
                 <p>
                     Department of Graphic Engineering and Design
@@ -406,7 +413,7 @@
         </section> <!--end education-->
 
         <section id="projects"><!-- beg. projects and interests-->
-            <h3 style="margin-top: 100px;">
+            <h3 class="main">
                 Active private projects and interests
             </h3>
 
